@@ -1,0 +1,85 @@
+.card {
+    display: inline-block;
+    width: min-content;
+    height: 450px;
+
+    background-color: #b8b8b8;
+    margin : 45px 5px 0 5px;
+    box-shadow:5px 5px 60px -14px black;
+    border-radius: 4px;
+}
+
+.card-img {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.card-title,
+.card-rate {
+    height: 32px;
+    margin: 13px;
+    font-size: 18px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-btn {
+    display: block;
+    width: 120px;
+    height: 30px;
+    background: darkgrey;
+    border-radius: 5px;
+    font-size: 16px;
+    border-style: none;
+    margin: auto;
+    cursor: pointer;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10), 0 8px 8px rgba(0, 0, 0, 0.18);
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.wrap.details {
+    width: 900px;
+    margin-top: 50px;
+    box-shadow:5px 5px 115px -14px black;
+    background: darkgrey;
+}
+
+.details-info {
+    display: flex;
+}
+
+.details-title {
+    width: 70%;
+    margin: 20px;
+}
+
+.details-title p {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.details-rate {
+    margin: 20px;
+    font-size: 18px;
+    align-self: baseline;
+}
+
+.highlight {
+    color: #5b5b5b;
+}
+
+.dark .card {
+    background:#1e1b26;
+    color: lightgrey;
+}
+
+.dark .card .card-btn {
+    background: #2f2b3a;
+    color: lightgrey;
+}
+
+

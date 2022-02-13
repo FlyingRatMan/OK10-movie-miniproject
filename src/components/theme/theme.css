@@ -1,0 +1,23 @@
+.switch-btn {
+    width: 148px;
+    height: 30px;
+    background: lightgrey;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10), 0 8px 8px rgba(0, 0, 0, 0.18);
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.dark .switch-btn {
+    background: #2f2b3a;
+    color: lightgrey;
+}
+
+.dark {
+    background: #2f2b3a;
+    color: lightgrey;
+}
+
+
+

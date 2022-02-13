@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+    height: 90px;
+    background: lightgrey;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10), 0 8px 8px rgba(0, 0, 0, 0.18);
+}
+
+.navigation a {
+    font-size: 32px;
+    color: darkgrey;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.navigation>.active {
+    color: #5b5b5b;
+}
+
+.dark .header,
+.dark .header a {
+    background:#1e1b26;
+    color: grey;
+}
+
+.dark .navigation>.active {
+    color:lightgrey;
+}
